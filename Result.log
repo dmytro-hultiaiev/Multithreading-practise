@@ -1,0 +1,80 @@
+Thread3 modified CR2_byte, CR2_short, CR2_int
+Thread2 opens semaphore SR2 for the Thread3
+Thread6 synchronized in barrier
+Thread3 synchronized in barrier
+Thread6 use CR2_boolean, CR2_char
+Thread3 use (sum) CR2_long, CR2_float, CR2_double and get result: 890020.5875
+Thread3 opens semaphore SR1 for the Thread2
+Thread3 works AFTER synchronization point
+Thread3 modified CR2_byte, CR2_short, CR2_int
+Thread3 synchronized in barrier
+Thread3 use (sum) CR2_long, CR2_float, CR2_double and get result: 890020.5875
+Thread3 opens semaphore SR1 for the Thread2
+Thread2 works AFTER synchronization point
+Thread6 synchronized in barrier
+Thread6 use CR2_boolean, CR2_char
+Producer Thread5 in write to buffer[0] value: 52
+Producer Thread5 in write to buffer[1] value: 5
+Producer Thread5 in write to buffer[2] value: 57
+Consumer Thread1 get in buffer[0] value: 52
+Consumer Thread1 get in buffer[1] value: 5
+Consumer Thread1 get in buffer[2] value: 57
+Producer Thread5 in write to buffer[3] value: 44
+Producer Thread5 in write to buffer[4] value: 23
+Producer Thread5 in write to buffer[5] value: 29
+Consumer Thread4 get in buffer[3] value: 44
+Consumer Thread4 get in buffer[4] value: 23
+Producer Thread2 in write to buffer[6] value: 49
+Thread2 opens semaphore SR2 for the Thread3
+Consumer Thread4 get in buffer[5] value: 29
+Thread2 works AFTER synchronization point
+Consumer Thread4 get in buffer[6] value: 49
+Producer Thread2 in write to buffer[0] value: 96
+Consumer Thread4 get in buffer[0] value: 96
+Thread2 opens semaphore SR2 for the Thread3
+Thread3 works AFTER synchronization point
+Producer Thread5 in write to buffer[1] value: 23
+Thread3 modified CR2_byte, CR2_short, CR2_int
+Producer Thread5 in write to buffer[2] value: 94
+Thread3 synchronized in barrier
+Producer Thread5 in write to buffer[3] value: 13
+Producer Thread5 in write to buffer[4] value: 55
+Thread3 use (sum) CR2_long, CR2_float, CR2_double and get result: 890020.5875
+Producer Thread5 in write to buffer[5] value: 42
+Thread3 opens semaphore SR1 for the Thread2
+Producer Thread5 in write to buffer[6] value: 54
+Thread3 works AFTER synchronization point
+Thread3 modified CR2_byte, CR2_short, CR2_int
+Producer Thread5 in write to buffer[0] value: 36
+Consumer Thread1 get in buffer[1] value: 23
+Thread6 synchronized in barrier
+Thread6 use CR2_boolean, CR2_char
+Consumer Thread1 get in buffer[2] value: 94
+Thread6 synchronized in barrier
+Consumer Thread1 get in buffer[3] value: 13
+Thread6 use CR2_boolean, CR2_char
+Consumer Thread1 get in buffer[4] value: 55
+Thread2 works AFTER synchronization point
+Consumer Thread1 get in buffer[5] value: 42
+Producer Thread2 in write to buffer[1] value: 61
+Thread2 opens semaphore SR2 for the Thread3
+Producer Thread5 in write to buffer[2] value: 67
+Producer Thread5 in write to buffer[3] value: 98
+Thread3 synchronized in barrier
+Producer Thread5 in write to buffer[4] value: 0
+Producer Thread5 in write to buffer[5] value: 32
+Thread3 use (sum) CR2_long, CR2_float, CR2_double and get result: 890020.5875
+Consumer Thread1 get in buffer[6] value: 54
+Thread3 opens semaphore SR1 for the Thread2
+Thread3 works AFTER synchronization point
+Thread3 finished!
+Thread2 works AFTER synchronization point
+Consumer Thread4 get in buffer[0] value: 36
+Producer Thread2 in write to buffer[6] value: 17
+Thread2 finished!
+Producer Thread5 in write to buffer[0] value: 21
+Thread1 finished!
+Thread4 finished!
+Thread6 finished!
+Thread5 finished!
+Main finished
